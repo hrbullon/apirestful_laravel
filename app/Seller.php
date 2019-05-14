@@ -6,7 +6,7 @@ use App\Product;
 
 class Seller extends User
 {
-    public function transactions()
+    public function products()
     {
         return $this->hasMany(Product::class);
     }
